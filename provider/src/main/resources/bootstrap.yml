@@ -7,3 +7,4 @@ apollo:
 #      enabled: true # 在记录系统初始化之前将apollo初始化
   system:
     namespaces: system.yml
+  refreshInterval: 10 #定时频率默认为每5分钟拉取一次，客户端也可以通过在运行时指定System Property: apollo.refreshInterval来覆盖，单位为分钟。

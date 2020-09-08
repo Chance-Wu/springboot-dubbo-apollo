@@ -1,9 +1,11 @@
 package com.chance.dubbo.provider;
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableApolloConfig
 @EnableDubbo
 @SpringBootApplication
 public class ProviderApplication {
