@@ -4,14 +4,3 @@ spring:
 server:
   port: 9999
 
-#指定当前应用/服务名字，相同的服务应同名
-dubbo:
-  application:
-    name: consumer
-  registry:
-    address: zookeeper://127.0.0.1:2181
-
-#自定义属性，用来规定dubbo服务的版本号
-demo:
-  service:
-    version: 1.0.0

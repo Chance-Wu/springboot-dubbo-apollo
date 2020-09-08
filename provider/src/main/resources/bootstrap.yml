@@ -1,0 +1,9 @@
+# Apollo配置
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: datasource.yml,dubbo.yml,redis.yml
+#    eagerLoad:
+#      enabled: true # 在记录系统初始化之前将apollo初始化
+  system:
+    namespaces: system.yml
